@@ -1,16 +1,27 @@
-// logical operators
-// These operators combine boolean values and return a boolean result
-// Examples include: && (AND), || (OR), ! (NOT)
+// conditionals statement
 
-// AND operator
-var ageLessThan18 =  true
-var citzenMA_1  = true
-console.log("this person is allowed to get a driving license?", ageLessThan18 && citzenMA_1); // false
+let x = 18;
 
-// OR operator
-var ageMoreThan18 =  true
-var citzenMA_2  = false
-console.log("this person is allowed to get a driving license?", ageMoreThan18 || citzenMA_2); // true
+if(x === 18){
+    // execute some code here
+    console.log(`the person is ${x} years old && is allowed to vote in the election`);
+} else {
+    // execute some other code here
+    console.log(`the person is not allowed to vote in the election`);
+    consol
+}
 
-// NOT operator
-console.log("this person is allowed to get a driving license?", !ageLessThan18); // false
+// if hour is between 8 and 12, print "Good Morning"
+// if hour is between 12 and 18, print "Good Afternoon"
+// if hour is between 18 and 22, print "Good Evening"
+
+let hour = 10
+
+if (hour >=8 && hour <12) {
+    console.log("Good Morning");
+}else if (hour >=12 && hour <18) {
+    console.log("Good Afternoon");   
+}else
+    {
+    console.log("Good Evening");
+    }    
